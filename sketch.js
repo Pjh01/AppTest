@@ -96,3 +96,14 @@ function deviceMoved(){
   Text(accelerationX, 10, 10);
 }
 
+/////
+
+// function setup(){
+//   createCanvas(displayWidth, displayHeight);
+// }
+
+// function draw(){
+//  clear();
+//  let display = touches.length + 'touches';
+//  text(display, 5, 10);
+// }
