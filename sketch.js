@@ -75,7 +75,7 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  background(100);
   wave.freq(ampValue);
 }
 
