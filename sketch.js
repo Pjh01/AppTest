@@ -62,8 +62,8 @@ var playing = false;
 var ampValue = 0;
 
 function setup() {
-  //createCanvas(displayWidth, displayHeight);
-  createCanvas(720, 256);
+  createCanvas(displayWidth, displayHeight);
+  //createCanvas(720, 256);
   wave = new p5.Oscillator();
   wave.setType('sine');
   //wave.start();
@@ -75,7 +75,7 @@ function setup() {
 }
 
 function draw() {
-  //background(220);
+  background(220);
   wave.freq(ampValue);
 }
 
